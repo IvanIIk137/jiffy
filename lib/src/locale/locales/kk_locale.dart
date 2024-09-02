@@ -15,7 +15,7 @@ class KkLocale extends Locale {
   StartOfWeek startOfWeek() => StartOfWeek.monday;
 
   @override
-  RelativeDateTime relativeDateTime() => KzRelativeTime();
+  RelativeDateTime relativeDateTime() => KkRelativeTime();
 }
 
 class KkRelativeTime extends RelativeDateTime {
