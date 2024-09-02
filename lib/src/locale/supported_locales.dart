@@ -25,7 +25,7 @@ import 'locales/sv_locale.dart';
 import 'locales/tr_locale.dart';
 import 'locales/zh_locale.dart';
 import 'locales/bn_locale.dart';
-import 'locales/kz_locale.dart';
+import 'locales/kk_locale.dart';
 import 'locales/hy_locale.dart';
 
 Map<String, Locale> _supportedLocales = {
@@ -82,7 +82,7 @@ Map<String, Locale> _supportedLocales = {
   'th': ThLocale(),
   'sk': SkLocale(),
   'cs': CsLocale(),
-  'kz': KzLocale(),
+  'kk': KkLocale(),
   'hy': HyLocale(),
 };
 
