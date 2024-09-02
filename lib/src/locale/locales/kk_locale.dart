@@ -3,9 +3,9 @@ import '../../utils/replace.dart';
 import '../locale.dart';
 import '../relative_date_time.dart';
 
-class KzLocale extends Locale {
+class KkLocale extends Locale {
   @override
-  String code() => 'kz';
+  String code() => 'kk';
 
   @override
   List<String> ordinals() =>
@@ -18,7 +18,7 @@ class KzLocale extends Locale {
   RelativeDateTime relativeDateTime() => KzRelativeTime();
 }
 
-class KzRelativeTime extends RelativeDateTime {
+class KkRelativeTime extends RelativeDateTime {
   @override
   String prefixAgo() => '';
   @override
